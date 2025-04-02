@@ -1,16 +1,44 @@
-# ebook
+# Digital Snap
 
-A new Flutter project.
+_Capture, Create, and Master the Art of Digital Photography!_
 
-## Getting Started
+這是一個有關數位攝影的電子書程式。使用者能從中學到有關數位攝影的基本資訊，也包含一個觀賞範例照片的媒體庫。
 
-This project is a starting point for a Flutter application.
+![[mockup.jpeg]]
+## 功能
 
-A few resources to get you started if this is your first Flutter project:
+- 瀏覽數位攝影相關資料
+- 照片範例
+- 互動式說明
+![[slider_crop.gif]]
+- 太空風格設計與背景音樂
+- 可供瀏覽的相簿
+![[viewer_crop.gif]]
+## 安裝
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+1. 架設 flutter 環境，並將 flutter 加到 PATH。
+2. （optional）安裝 android-studio 和設定模擬器。
+3. 複製此專案
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+git clone https://github.com/DrifterAldvvyn/DigitalSnap.git
+```
+
+4. 進入專案目錄 
+
+```
+cd DigitalSnap
+```
+
+5. 安裝第三方套件（photo_view, just_audio）
+
+```
+flutter pub get
+```
+
+6. 啟動模擬器
+7. 建置執行
+
+```
+flutter run
+```

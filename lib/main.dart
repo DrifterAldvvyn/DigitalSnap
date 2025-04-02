@@ -1,7 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:digital_snap/page/homepage.dart';
+import 'package:just_audio/just_audio.dart';
 
-void main() {
+void main() async{
+  WidgetsFlutterBinding.ensureInitialized();
+  final player = AudioPlayer();
+  await player.setLoopMode(LoopMode.all); // Loop infinitely
+  await player.setAsset('asset/audio/bgm.mp3');
+  player.play();
   runApp(const MyApp());
 }
 
