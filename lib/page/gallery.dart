@@ -1,3 +1,4 @@
+import 'package:digital_snap/page/viewer.dart';
 import 'package:flutter/material.dart';
 import 'package:digital_snap/color.dart';
 
@@ -84,9 +85,19 @@ class Gallery extends StatelessWidget {
                     color: AppColors.primary,
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(12.0),
-                      child: Image.asset(
-                        'asset/images/gallery/${index.toString().padLeft(2, '0')}.JPG',
-                        fit: BoxFit.cover,
+                      child: GestureDetector(
+                        onTap: () {
+                          Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => Viewer(imgID: index),
+                            ),
+                          );
+                        },
+                        child: Image.asset(
+                          'asset/images/gallery/${index.toString().padLeft(2, '0')}.JPG',
+                          fit: BoxFit.cover,
+                        ),
                       ),
                     ),
                   );
