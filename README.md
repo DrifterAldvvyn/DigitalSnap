@@ -10,7 +10,7 @@ _Capture, Create, and Master the Art of Digital Photography!_
 - 瀏覽數位攝影相關資料
 - 照片範例
 - 互動式說明
-![](https://github.com/DrifterAldvvyn/DigitalSnap/blob/c9137562bf5f5241457f8cdbb36ed4d1698d83d3/demo/slide_crop.gif?raw=true)
+![](https://github.com/DrifterAldvvyn/DigitalSnap/blob/c9137562bf5f5241457f8cdbb36ed4d1698d83d3/demo/slider_crop.gif?raw=true)
 - 太空風格設計與背景音樂
 - 可供瀏覽的相簿
 ![](https://github.com/DrifterAldvvyn/DigitalSnap/blob/c9137562bf5f5241457f8cdbb36ed4d1698d83d3/demo/viewer_crop.gif?raw=true)
