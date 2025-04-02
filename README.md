@@ -4,16 +4,16 @@ _Capture, Create, and Master the Art of Digital Photography!_
 
 這是一個有關數位攝影的電子書程式。使用者能從中學到有關數位攝影的基本資訊，也包含一個觀賞範例照片的媒體庫。
 
-![[mockup.jpeg]]
+![](https://github.com/DrifterAldvvyn/EarResistible/blob/main/demo/mockup.png?raw=true)
 ## 功能
 
 - 瀏覽數位攝影相關資料
 - 照片範例
 - 互動式說明
-![[slider_crop.gif]]
+![](https://github.com/DrifterAldvvyn/EarResistible/blob/main/demo/mockup.png?raw=true)
 - 太空風格設計與背景音樂
 - 可供瀏覽的相簿
-![[viewer_crop.gif]]
+![](https://github.com/DrifterAldvvyn/EarResistible/blob/main/demo/mockup.png?raw=true)
 ## 安裝
 
 1. 架設 flutter 環境，並將 flutter 加到 PATH。
